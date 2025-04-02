@@ -1,0 +1,121 @@
+*{margin: 0%;
+padding: 0%;
+}
+
+/*  body */
+body {
+    background-color: rgb(43, 38, 30);
+}
+
+
+a {
+text-decoration: none;
+text-transform: uppercase;
+font-weight: bold;
+color: antiquewhite;}
+
+/* main */
+
+.videohome{
+    width: auto;
+    height: 1000px;
+    
+}
+
+main { margin: 40px;
+    padding: 20px;}
+
+    h1{
+        text-align: center;
+        text-decoration: underline;
+        margin: 20px 0px;
+        color: antiquewhite;}
+
+    h2 {
+        text-align: center;
+        text-decoration: underline;
+        margin: 20px 0px;
+        color: antiquewhite;}
+
+        h3{ 
+             text-align: center;
+            text-decoration: underline;
+            margin: 20px 0px;
+            padding: 20px;
+            color: antiquewhite;}
+
+            p{
+                text-align: center;
+                text-decoration: underline;
+                margin: 20px 0px;
+                padding: 20px;
+                color: antiquewhite} 
+
+/* footer*/
+
+footer{
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: antiquewhite;
+        text-align: center;}
+
+       
+/*pagina mujer */
+
+        .paginamujer{
+            margin: 40px;
+            width: 50%;
+            border: 4px solid #ffffff;
+            border-radius: 10px;
+        }
+        .imgmujer{
+display: block;
+width: 40%;
+height: 40%
+
+        }
+
+/*pagina hombres*/
+
+.paginahombres{ 
+    margin: 40px;
+    width: 50%;
+    border: 4px solid #ffffff;
+    border-radius: 10px;
+}
+.imghombres{
+    display: block;
+    width: 40%;
+    height: 40%;
+}
+
+/* pagina kids*/
+.paginakids{
+    margin: 40px;
+    width: 50%;
+    border:4px solid #ffffff;
+    border-radius: 10px;
+}
+
+.imgkids{
+    display: block;
+    width: 40%;
+    height: 40% }
+
+    form{
+        width: 30%;
+        margin: auto;
+    }
+ @media (min-width:992px){
+    .logotipo{
+        height: 20%;
+        width: 10%;
+    }
+}
+@media( max-width: 991px){
+    .logotipo{
+        height:2em ;
+        width: 2em;
+    }
+}
