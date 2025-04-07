@@ -1,112 +1,93 @@
 *{margin: 0%;
 padding: 0%;
+box-sizing: border-box;
 }
+/*footer */
+.footer-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    min-height: 100vh;
+    background-color: white;
+  }
+  
+  .footer {
+    position: relative;
+    width: 100%;
+    background: #198754;
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 10px 5px;
+    flex-wrap: wrap;
+  }
+  
+  .icon-elem {
+    list-style: none;
+  }
+  
+  .icon {
+    color: white;
+    font-size: 32px;
+    display: inline-block;
+    margin: 0 10px;
+    transition: 0.5s;
+  }
+  
+  .icon:hover {
+    transform: translateY(-10px);
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+  }
+  
+  .menu-elem {
+    list-style: none;
+  }
+  .menu-icon {
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 5px 10px;
+    opacity: 0.5;
+    transition: 0.3s;
+  }
+  
+  .menu-icon:hover {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
 
-/*  body */
-body {
-    background-color: rgb(43, 38, 30);
-}
-
-
-a {
-text-decoration: none;
-text-transform: uppercase;
-font-weight: bold;
-color: antiquewhite;}
-
-/* main */
-
-.videohome{
-    width: auto;
-    height: 1000px;
-    
-}
-
-main { margin: 40px;
-    padding: 20px;}
-
-    h1{
-        text-align: center;
-        text-decoration: underline;
-        margin: 20px 0px;
-        color: antiquewhite;}
-
-    h2 {
-        text-align: center;
-        text-decoration: underline;
-        margin: 20px 0px;
-        color: antiquewhite;}
-
-        h3{ 
-             text-align: center;
-            text-decoration: underline;
-            margin: 20px 0px;
-            padding: 20px;
-            color: antiquewhite;}
-
-            p{
-                text-align: center;
-                text-decoration: underline;
-                margin: 20px 0px;
-                padding: 20px;
-                color: antiquewhite} 
-
-/* footer*/
-
-footer{
-        text-decoration: none;
-        text-transform: uppercase;
-        font-weight: bold;
-        color: antiquewhite;
-        text-align: center;}
-
-       
-/*pagina mujer */
-
-        .paginamujer{
-            margin: 40px;
-            width: 50%;
-            border: 4px solid #ffffff;
-            border-radius: 10px;
-        }
-        .imgmujer{
-display: block;
-width: 40%;
-height: 40%
-
-        }
-
-/*pagina hombres*/
-
-.paginahombres{ 
-    margin: 40px;
-    width: 50%;
-    border: 4px solid #ffffff;
-    border-radius: 10px;
-}
-.imghombres{
-    display: block;
-    width: 40%;
-    height: 40%;
-}
-
-/* pagina kids*/
-.paginakids{
-    margin: 40px;
-    width: 50%;
-    border:4px solid #ffffff;
-    border-radius: 10px;
-}
-
-.imgkids{
-    display: block;
-    width: 40%;
-    height: 40% }
 
     form{
         width: 30%;
         margin: auto;
     }
+    /*meidaqueris navbar*/
  @media (min-width:992px){
     .logotipo{
         height: 20%;
@@ -118,4 +99,41 @@ height: 40%
         height:2em ;
         width: 2em;
     }
+}
+
+
+.grid-container{
+  margin-top: 3rem;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  margin-left: 10%;
+  row-gap: 1.5rem;
+}
+
+/*form reclamos*/
+.container-form{
+  padding: 10%;
+}
+.form-contacto{
+  width: 450px;
+  margin: auto;
+  background-color: rgba(0,0,0,0.4);
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.form-contacto h2{
+  color: aliceblue;
+  text-align: center;
+  margin: 0%;
+  font-size: 30px;
+}
+input textarea{
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 17px ;
 }
